@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+:root{
+    --color1:#00ffff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #00ffff; */
+    height: 100vh;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 20px 0;
+    width: 30vw;
+    /* height: 40px; */
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.cardsout{
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    align-items: center;
+    
+}
+.card{
+    height: 150px;
+    width: 150px;
+    background-color: var(--color1);
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
